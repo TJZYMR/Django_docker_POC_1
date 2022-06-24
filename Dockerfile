@@ -15,5 +15,5 @@ WORKDIR /demo
 # Copy the current directory contents into the container at /music_service
 ADD . /demo/
 
-# Install any needed packages specified in requirements.txt
-RUN pip install -r requirements.txt
+# Install any needed packages specified in requirements.txt,run this for the first time.
+# RUN pip install -r requirements.txt
