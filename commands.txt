@@ -1,0 +1,1 @@
+1)opening shell from cli:=>docker exec -it music_service bash
